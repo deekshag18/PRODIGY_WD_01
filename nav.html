@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>interactive navigation menu bar</title>
+        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <style>
+            img
+            {
+                width: 16.5%;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+        </style>
+         
+    </head>  
+    <body>   
+        <div id="navlist"></div>       
+        <div class="navigation_menu">
+            <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Men</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Casual-SHirts</a></li>
+                        <li><a href="#">Formal-SHirts</a></li>
+                        <li><a href="#">SweatSHirts</a></li>
+                        <li><a href="#">Jacketss</a></li>
+                        <li><a href="#">Blazers & Coats</a></li>
+            
+                    </ul>
+                </div> 
+            </li>     
+            <li><a href="#">Women</a>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li><a href="#">Kurts & Suits</a></li>
+                        <li><a href="#">Kurta</a></li>
+                        <li><a href="#">Sarees</a></li>
+                        <li><a href="#">Skirts & Plazzos</a></li>
+                        <li><a href="#">Dress Material</a></li>
+                        <li><a href="#">Tops</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Jumpsuits</a></li>
+                        <li><a href="#">Trousers</a></li>
+                        <li><a href="#">Lehanga</a></li>
+            
+                    </ul>
+                </div> 
+            </li>     
+            <li><a href="#">Footwear</a>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li><a href="#">Flats</a></li>
+                        <li><a href="#">Sandals</a></li>
+                        <li><a href="#">Heels</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Flip-Flops</a></li>
+            
+                    </ul>
+                </div> 
+            </li>       
+                <li><a href="#">Home & Living</a>
+                <div class="sub-menu-4">
+                    <ul>
+                        <li><a href="#">Baths</a></li>
+                        <li><a href="#">Lamps & Lighting</a></li>
+                        <li><a href="#">Flooring</a></li>
+                        <li><a href="#">Curtains</a></li>
+                        <li><a href="#">Kitchen & Tables</a></li>
+            
+                    </ul>
+                </div> 
+            </li>       
+                <li><a href="#">Beauty</a>
+                <div class="sub-menu-5">
+                    <ul>
+                        <li><a href="#">Makeup</a></li>
+                        <li><a href="#">Skincare,Bath & Body</a></li>
+                        <li><a href="#">Haircare</a></li>
+                        <li><a href="#">Perfumes</a></li>
+                        <li><a href="#">Appliances</a></li>
+            
+                    </ul>
+                </div> 
+            </li>      
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Log-In</a><i class="fa-duotone fa-user"></i></li>
+            </ul>
+               </div>
+        
+        <img src="C:\Users\deeks\OneDrive\Desktop\imp\img3.png" alt="images" class="center"> 
+        <h1><center>Festiv Crazy Offer</center></h1> 
+        
+        
+        
+        <img src="C:\Users\deeks\OneDrive\Desktop\imp\img2.png" style="width: 15.7%;">    
+        <img src="img3.png" > 
+        <img src="img4.png" > 
+        <img src="img5.png" > 
+        <img src="img6.png" > 
+        <img src="img7.png" > 
+        <img src="img8.png" > 
+        <img src="img9.png" > 
+        <img src="img10.png" > 
+        <img src="img11.png" > 
+        <body>
+            <script>
+                window.addEventListener("scroll", function () {
+                    const navigationMenu = document.querySelector('.navigation_menu');
+                    const offset = window.pageYOffset;
+            
+                    if (offset > 70) {
+                        navigationMenu.classList.add('sticky');
+                    } else {
+                        navigationMenu.classList.remove('sticky');
+                    }
+                });
+            </script>
+            
+        </body>
+        
+        
+
+</html>
+
+               
+        
+    
+
+
+                
+            
+            

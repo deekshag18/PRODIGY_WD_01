@@ -1,0 +1,257 @@
+*
+{
+   padding: 0;
+   margin: 0;
+
+}
+body{
+    
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-style: Audela;
+    background-color: #3D0000;
+    
+}
+
+.navigation_menu
+{
+    background-color: #D35400;
+    display:inline-flex;
+    text-align: center;
+}
+.navigation_menu ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: antiquewhite;
+}
+.navigation_menu ul li
+{
+    width: 140px;
+    margin: 10px;
+    padding: 20px;
+}
+.navigation_menu ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.active,.navigation_menu ul li:hover
+
+{
+    background:#F1C40F;
+    border-radius:7px;
+    
+
+}
+.sub-menu-1
+{
+    display: none;
+    font-size: small;
+}
+.navigation_menu ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:#F1C40F;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navigation_menu ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.navigation_menu ul li:hover .sub-menu-1 ul li
+{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navigation_menu ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:#D35400;
+}
+.sub-menu-2
+{
+    display: none;
+    font-size: small;
+}
+.navigation_menu ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    background:#F1C40F;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navigation_menu ul li:hover .sub-menu-2 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.navigation_menu ul li:hover .sub-menu-2 ul li
+{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navigation_menu ul li:hover .sub-menu-2 ul li a:hover
+{
+    color:#D35400;
+}
+.sub-menu-3
+{
+    display: none;
+    font-size: small;
+}
+.navigation_menu ul li:hover .sub-menu-3
+{
+    display: block;
+    position: absolute;
+    background:#F1C40F;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navigation_menu ul li:hover .sub-menu-3 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.navigation_menu ul li:hover .sub-menu-3 ul li
+{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navigation_menu ul li:hover .sub-menu-3 ul li a:hover
+{
+    color:#D35400;
+}
+.sub-menu-4
+{
+    display: none;
+    font-size: small;
+}
+.navigation_menu ul li:hover .sub-menu-4
+{
+    display: block;
+    position: absolute;
+    background:#F1C40F;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navigation_menu ul li:hover .sub-menu-4 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.navigation_menu ul li:hover .sub-menu-4 ul li
+{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navigation_menu ul li:hover .sub-menu-4 ul li a:hover
+{
+    color:#D35400;
+}
+.sub-menu-5
+{
+    display: none;
+    font-size: small;
+}
+.navigation_menu ul li:hover .sub-menu-5
+{
+    display: block;
+    position: absolute;
+    background:#F1C40F;
+
+    margin-left: -15px;
+}
+.navigation_menu ul li:hover .sub-menu-5 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.navigation_menu ul li:hover .sub-menu-5 ul li
+{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navigation_menu ul li:hover .sub-menu-5 ul li a:hover
+{
+    color:#D35400;
+}
+/* Add this to your existing CSS */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+navbar.scrolled {
+    background-color: #ff5733; /* Change background color when scrolled */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow when scrolled */
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5cm;
+    width: 70%;
+  }
+  h1{
+    font-family: "Times New Roman";
+    font-size: 70px;
+    background-color: #331D2C ;
+    color:  #A2678A;
+}
+.photo
+{
+    padding: auto;
+    
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #333; /* Change to your desired background color */
+    color: white; /* Change to your desired text color */
+}
+.content {
+    padding-top: 70px; /* Adjust this value based on the height of your navigation menu */
+ padding-top: 70px; /* Adjust this value based on the height of your navigation menu */
+}
+/* Style for the sticky menu */
+.navigation_menu.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Change to your desired background color */
+    color: white; /* Change to your desired text color */
+    z-index: 100;
+}
